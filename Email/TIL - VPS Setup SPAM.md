@@ -23,34 +23,30 @@ XPRIO = ??
 ```
 
 From here i had a rather high Spam Value.
-X-Spam-Score: 4.393
-You definetely want to keep that below the 4.0.
-The one thing that we could try and remove was the microsoft MIMEOLE with a High value of 1.899
+
+**X-Spam-Score:** 4.393
+
+You definetely want to keep that below the 4.0 thershold.
+The one thing that we could try and remove was the microsoft **MIMEOLE** with a High value of 1.899
 This was adding in my email headers the following 
+```
 X-Priority: 3
 X-MSMail-Priority: Normal
+```
 
 
-In my postfix directory $ /etc/postifix/
-i have created the following file : header_checks 
+In my postfix directory **$ /etc/postifix/**
+i have created the following file : **header_checks**
 with the text 
 ```
 /^X-MimeOLE:/   IGNORE
 /^X-MSMail-Priority:/   IGNORE
 ```
 
-And added the the checks in the  main.cf
+And added the the checks in the ** main.cf**
 ```
 # Header Check
 header_checks = regexp:/etc/postfix/header_checks
 ```
 
-
-
 This has removed the MIMEOLE problems and have droped my X-Spam-Score down to 2.8.
-
-
-
-
-
-
