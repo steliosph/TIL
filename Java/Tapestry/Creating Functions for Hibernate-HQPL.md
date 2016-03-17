@@ -26,7 +26,7 @@ And then create our Name Query where we defind the name of the query and we can 
 ```
 Query q = getCurrentSession().getNamedQuery("thisIsACustomFunction")
 			.setInteger("objectIntger",valueInt)
-			.setDate("objectDate",valueDate);
+			.setDate("objectDate",valueDate); // or setTime or setTimestamp
 ```
 
 Our Function is coupled with a model as it will return a set of the object that we require.
