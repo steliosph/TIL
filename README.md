@@ -13,4 +13,4 @@ A sort of diaries of all the things that i learned each day.
 ### Java
 
 ###### Tapestry
- - [x] [Create Creating Functions for Hibernate-HQPL](httpshttps://github.com/steliosph/TIL/blob/master/Java/Tapestry/Creating%20Functions%20for%20Hibernate-HQPL.md) - *17/Mar/2016*
+ - [x] [Create Creating Functions for Hibernate-HQPL](https://github.com/steliosph/TIL/blob/master/Java/Tapestry/Creating%20Functions%20for%20Hibernate-HQPL.md) - *17/Mar/2016*
