@@ -4,7 +4,7 @@
 
 A sort of diaries of all the things that i learned each day.
 
-1 TIL ... 
+2 TIL ... 
 
 ### Email
 
