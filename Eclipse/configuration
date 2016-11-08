@@ -1,0 +1,4 @@
+# High definition screen can be scaled with the following commands.
+
+-Dswt.autoScale=200 
+-Dswt.autoScale.method=nearest 
